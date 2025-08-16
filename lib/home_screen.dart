@@ -58,6 +58,8 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
 
+              SizedBox(height: 20,),
+
               Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20),
                 child: Row(
@@ -67,6 +69,22 @@ class HomeScreen extends StatelessWidget {
                     soundButton(text: "Bird", sound: "bird", image: "bird"),
 
                     soundButton(text: "Drum", sound: "drum", image: "drum"),
+
+                  ],
+                ),
+              ),
+
+              SizedBox(height: 20,),
+
+              Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+
+                    soundButton(text: "Kiss", sound: "kiss", image: "kiss"),
+
+                    soundButton(text: "Horn", sound: "horn", image: "horn"),
 
                   ],
                 ),
